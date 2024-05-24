@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".DrinkActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Drink Order"
+        app:titleTextColor="@color/white" />
+
+    <RadioGroup
+        android:id="@+id/rg_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:paddingStart="20dp">
+
+        <RadioButton
+            android:id="@+id/rb_drink1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pepsi" />
+
+        <RadioButton
+            android:id="@+id/rb_drink2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heineken" />
+
+        <RadioButton
+            android:id="@+id/rb_drink3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiger" />
+
+        <RadioButton
+            android:id="@+id/rb_drink4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sài gòn Đỏ" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_orderDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Đặt món"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/txtErrorDrink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+</LinearLayout>

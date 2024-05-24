@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="ex1_title">True Random Number Generator</string>
+    <string name="ex1_min">Min: </string>
+    <string name="ex1_max">Max: </string>
+    <string name="ex1_generate">Generate</string>
+    <string name="ex1_result">Result: </string>"
+</resources>
